@@ -1,5 +1,3 @@
-# Auth0 Training Labs FAQ
-
 ## I accidentally closed or lost the CodeTour panel
 
 If you've accidentally closed or lost the CodeTour panel, you can reopen it. Expand the CodeTour section in the right panel of your Codespace and select the step that you completed. The CodeTour panel will reappear.
