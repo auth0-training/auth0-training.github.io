@@ -1,6 +1,6 @@
 ## I can't create a labs tenant!
 
-![New tenant limit](https://cdn.auth0.com/website/auth0-labs/od/faqs/new-tenant-limit.png]
+![New tenant limit](https://cdn.auth0.com/website/auth0-labs/od/faqs/new-tenant-limit.png)
 
 Auth0 accounts created after October 31, 2023 are now limited to one development/staging environment and one production environment. You can use the default tenant (starts with `dev-`) for these labs. We always recommend using a fresh development tenant to ensure all configurations are at their defaults. 
 
