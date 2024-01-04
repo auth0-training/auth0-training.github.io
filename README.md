@@ -21,5 +21,11 @@ You can check which tenant you are signed into at the bottom of the Codespaces w
 
 Sometimes your application won't launch correctly because you don't have a configuration set up in a `.env` file. The `.env` file is created by the Auth0 Labs extension, but it will only be created if you are logged in to the correct tenant (See: [*I signed into the wrong tenant*](#i-signed-into-the-wrong-auth0-tenant)) and you have named your application exactly as instructed by the lab.
 
+In order to re-run the command that will create the `.env` file, open VSCode’s Command Palette (CMD+SHIFT+P on Mac or CTRL+SHIFT+P on Windows), type in **Auth0**, and select **Auth0: Configure Local Environment**. 
+
+![Switch Tenants](https://cdn.auth0.com/website/auth0-labs/od/faqs/config-local.png)
+
+You can then check if the `.env` file was successfully created (in `src/web-app` for the Web App,  `src/api` for the API, and `src/spa-app` for the SPA app).
+
 #### For all other lab issues, contact [educationondemand@okta.com](mailto:educationondemand@okta.com). For general training questions, contact [training@okta.com](mailto:training@okta.com).
 
