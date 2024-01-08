@@ -27,5 +27,17 @@ In order to re-run the command that will create the `.env` file, open VSCode’s
 
 You can then check if the `.env` file was successfully created (in `src/web-app` for the Web App,  `src/api` for the API, and `src/spa-app` for the SPA app).
 
+## I'm getting a 503 when I attempt to visit my app
+
+This may be due to the Codespaces port-forwarding service being down. You can check GitHub's Codespace service status [here](https://www.githubstatus.com/). 
+
+You can work around this by opening your Codespace in the VSCode Desktop application (you will need to download [VSCode](https://code.visualstudio.com/) to your local machine if you do not already have it):
+1. From your Codespace, open the Command Palette by pressing `CTRL`+`SHIFT`+`P` (Windows) or `CMD`+`SHIFT`+`P` (Mac)
+2. Type in VSCode and select the following **Open in VS Code Desktop**:
+    ![VSCode Command Palette](https://cdn.auth0.com/website/a0fun/v2/vscode-command-palette.png)
+3. This will open VS Code and pop up a message that you can close your browser window.
+4. If you don't already have the GitHub Codespaces extension installed, VSCode will prompt you to do so.
+5. Once your Codespace is open in VSCode, proceed with the lab as normal.
+
 #### For all other lab issues, contact [educationondemand@okta.com](mailto:educationondemand@okta.com). For general training questions, contact [training@okta.com](mailto:training@okta.com).
 
