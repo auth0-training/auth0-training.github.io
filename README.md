@@ -9,6 +9,10 @@
 
 ---
 
+## I'm being prompted to enroll in MFA when I create an Auth0 account
+
+All Auth0 Administrators are now [required to enroll in MFA](https://community.auth0.com/t/action-required-multifactor-authentication-mfa-for-auth0-by-okta-administrators/125827).
+
 ## I can't connect to GitHub Codespaces
 Disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
 
