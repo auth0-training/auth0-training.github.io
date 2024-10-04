@@ -5,9 +5,11 @@
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
 - [I can't create a labs tenant!](#i-cant-create-a-labs-tenant)
-- 
+
+---
+
 ## I can't connect to GitHub Codespaces
-You may have to disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
+Disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
 
 ## I signed into the wrong Auth0 tenant
 
