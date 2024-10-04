@@ -1,9 +1,13 @@
 
+- [I can't connect to GitHub Codespaces](#i-cant-connect-to-github-codespaces)
 - [I signed into the wrong Auth0 tenant](#i-signed-into-the-wrong-auth0-tenant)
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
 - [I can't create a labs tenant!](#i-cant-create-a-labs-tenant)
+- 
+## I can't connect to GitHub Codespaces
+You may have to disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
 
 ## I signed into the wrong Auth0 tenant
 
@@ -20,6 +24,8 @@ If you've accidentally closed or lost the CodeTour panel, you can reopen it. Exp
 ## I’m missing an .env file for my application / My application doesn’t launch
 
 Sometimes your application won't launch correctly because you don't have a configuration set up in a `.env` file. The `.env` file is created by the Auth0 Labs extension, but it will only be created if you are logged in to the correct tenant (See: [*I signed into the wrong tenant*](#i-signed-into-the-wrong-auth0-tenant)) and you have named your application exactly as instructed by the lab.
+
+If you already have a `.env` correctly configured with the expected values, you may just need to allow your application more time to launch. You can check the status by going to the Debug Console.
 
 In order to re-run the command that will create the `.env` file, open VSCode’s Command Palette (CMD+SHIFT+P on Mac or CTRL+SHIFT+P on Windows), type in **Auth0**, and select **Auth0: Configure Local Environment**. 
 
