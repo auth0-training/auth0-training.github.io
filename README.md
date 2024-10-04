@@ -4,7 +4,7 @@
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
-- [I can't create a labs tenant!](#i-cant-create-a-labs-tenant)
+- [I can't create a labs tenant](#i-cant-create-a-labs-tenant)
 
 ---
 
