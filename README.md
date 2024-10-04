@@ -6,7 +6,7 @@
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
-- [I can't create a labs tenant](#i-cant-create-a-labs-tenant)
+- [I can't create a new Auth0 tenant](#i-cant-create-a-new-auth0-tenant)
 
 ---
 
@@ -56,7 +56,7 @@ You can work around this by opening your Codespace in the VSCode Desktop applica
 4. If you don't already have the GitHub Codespaces extension installed, VSCode will prompt you to do so.
 5. Once your Codespace is open in VSCode, proceed with the lab as normal.
 
-## I can't create a labs tenant
+## I can't create a new Auth0 tenant
 
 ![New tenant limit](https://cdn.auth0.com/website/auth0-labs/od/faqs/new-tenant-limit.png)
 
