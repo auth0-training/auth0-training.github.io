@@ -1,5 +1,6 @@
 
 - [I can't connect to GitHub Codespaces](#i-cant-connect-to-github-codespaces)
+- [Codespaces is behaving unexpectedly](#codespaces-is-behaving-unexpectedly)
 - [I signed into the wrong Auth0 tenant](#i-signed-into-the-wrong-auth0-tenant)
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
@@ -10,6 +11,9 @@
 
 ## I can't connect to GitHub Codespaces
 Disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
+
+## Codespaces is behaving unexpectedly
+Every once in a while, a Codespace dev container just doesn't load correctly. In this case, try reloading the Codespace or even deleting the Codespace and creating a new one. If none of these steps help, check [GitHub's status page](https://www.githubstatus.com/).
 
 ## I signed into the wrong Auth0 tenant
 
@@ -27,7 +31,7 @@ If you've accidentally closed or lost the CodeTour panel, you can reopen it. Exp
 
 Sometimes your application won't launch correctly because you don't have a configuration set up in a `.env` file. The `.env` file is created by the Auth0 Labs extension, but it will only be created if you are logged in to the correct tenant (See: [*I signed into the wrong tenant*](#i-signed-into-the-wrong-auth0-tenant)) and you have named your application exactly as instructed by the lab.
 
-If you already have a `.env` correctly configured with the expected values, you may just need to allow your application more time to launch. You can check the status by going to the Debug Console.
+If you already have a `.env` correctly configured with the expected values with the correct tenant, you may just need to allow your application more time to launch. You can check the status by going to the Debug Console.
 
 In order to re-run the command that will create the `.env` file, open VSCode’s Command Palette (CMD+SHIFT+P on Mac or CTRL+SHIFT+P on Windows), type in **Auth0**, and select **Auth0: Configure Local Environment**. 
 
