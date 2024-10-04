@@ -1,4 +1,5 @@
 
+- [I'm being prompted to enroll in MFA when I create an Auth0 account](im-being-prompted-to-enroll-in-mfa-when-i-create-an-auth0-account)
 - [I can't connect to GitHub Codespaces](#i-cant-connect-to-github-codespaces)
 - [Codespaces is behaving unexpectedly](#codespaces-is-behaving-unexpectedly)
 - [I signed into the wrong Auth0 tenant](#i-signed-into-the-wrong-auth0-tenant)
