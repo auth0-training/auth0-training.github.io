@@ -72,8 +72,8 @@ If you cannot access Codespaces from your device, you can complete the labs loca
 ### Setup
 
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-2. Install [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Okta employees use Self Service Portal).
+2. Install [Visual Studio Code (VSCode)](https://code.visualstudio.com/) (Okta employees use Self Service Portal).
 3. Install the [Remote Development VSCode extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). 
 
 ### Completing the labs locally
