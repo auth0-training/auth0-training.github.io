@@ -1,24 +1,19 @@
 
 - [I'm being prompted to enroll in MFA when I create an Auth0 account](#im-being-prompted-to-enroll-in-mfa-when-i-create-an-auth0-account)
-- [I can't connect to GitHub Codespaces](#i-cant-connect-to-github-codespaces)
-- [Codespaces is behaving unexpectedly](#codespaces-is-behaving-unexpectedly)
 - [I signed into the wrong Auth0 tenant](#i-signed-into-the-wrong-auth0-tenant)
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
 - [I can't create a new Auth0 tenant](#i-cant-create-a-new-auth0-tenant)
+- [Codespaces is behaving unexpectedly](#codespaces-is-behaving-unexpectedly)
+- [I can't connect to GitHub Codespaces](#i-cant-connect-to-github-codespaces)
+- [GitHub Codespaces services are blocked on my device / I want to complete the labs locally](#github-codespaces-services-are-blocked-on-my-device--i-want-to-complete-the-labs-locally)
 
 ---
 
 ## I'm being prompted to enroll in MFA when I create an Auth0 account
 
 All Auth0 Administrators are now [required to enroll in MFA](https://community.auth0.com/t/action-required-multifactor-authentication-mfa-for-auth0-by-okta-administrators/125827).
-
-## I can't connect to GitHub Codespaces
-Disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires.
-
-## Codespaces is behaving unexpectedly
-Every once in a while, a Codespace dev container just doesn't load correctly. In this case, try reloading the Codespace or even deleting the Codespace and creating a new one. If none of these steps help, check [GitHub's status page](https://www.githubstatus.com/).
 
 ## I signed into the wrong Auth0 tenant
 
@@ -61,6 +56,53 @@ You can work around this by opening your Codespace in the VSCode Desktop applica
 ![New tenant limit](https://cdn.auth0.com/website/auth0-labs/od/faqs/new-tenant-limit.png)
 
 Free tier Auth0 accounts created after October 31, 2023 are now limited to one development/staging environment and one production environment. You can use the default tenant (starts with `dev-`) for these labs. We always recommend using a fresh development tenant to ensure all configurations are at their defaults. 
+
+## Codespaces is behaving unexpectedly
+
+Every once in a while, a Codespace dev container just doesn't load correctly. In this case, try reloading the Codespace or even deleting the Codespace and creating a new one. If none of these steps help, check [GitHub's status page](https://www.githubstatus.com/).
+
+## I can't connect to GitHub Codespaces
+
+Disconnect from any VPN you may be connected to as it may be blocking certain services Codespaces requires. If this still doesn't work, see [GitHub Codespaces services are blocked on my device / I want to complete the labs locally](#github-codespaces-services-are-blocked-on-my-device--i-want-to-complete-the-labs-locally).
+
+## GitHub Codespaces services are blocked on my device / I want to complete the labs locally
+
+If you cannot access Codespaces from your device, you can complete the labs locally after a bit of setup. You can follow these same steps if you just prefer to complete the labs locally.
+
+### Setup
+
+1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+2. Install [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
+3. Install the [Remote Development VSCode extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). 
+
+### Completing the labs locally
+
+1. Open Docker Desktop.
+1. Visit the GitHub repo for the lab you'd like to complete.
+2. Select the green **<>Code** button on the repo page.
+3. Select the **Local** tab.
+4. Copy either the HTTPS or SSH URL to clipboard.
+5. Open VSCode.
+6. Open the VSCode Command Palette by pressing **Command + Shift + P** (Mac) or **Control + Shift + P** (Windows).
+7. Type **Git: Clone** and select the command that pops up in the Command Palette.
+8. Paste the GitHub URL into the field that pops up.
+9. Select a destination for the cloned repo and select the **Select as Repository Destination** button.
+10. On the next dialogue box, select **Open**.
+11. Select **Reopen in Container** in the pop-up.
+12. You may need to allow Docker access to the folder. Select **Allow** if this pops up.
+13. If you're on a VPN, the correct extensions may not have downloaded to the dev container automatically. Press **Command + Shift + X** (Mac) or **Control + Shift + X** to bring up the installed extensions.
+14. If you do *NOT* see the following extensions installed in your dev container, install them:
+    - ESLint (Microsoft)
+    - EditorConfig for VSCode (EditorConfig)
+    - Prettier (Prettier)
+    - ES6 String HTML (hjb2012)
+    - CodeTour (Jonathan Carter)
+    - DotENV (Mikestead)
+    - Auth0 Labs (Auth0)
+    - Rest Client (Huachao Mao)
+
+15. Once these extensions are installed, you should see a CodeTour panel pop up with instructions on how to authorize the Auth0 extension with your Auth0 tenant. Once you've done this, follow the rest of the CodeTour steps to complete the lab.
 
 #### For all other lab issues, contact [educationondemand@okta.com](mailto:educationondemand@okta.com). For general training questions, contact [training@okta.com](mailto:training@okta.com).
 
