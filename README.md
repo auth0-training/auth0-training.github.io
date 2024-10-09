@@ -80,19 +80,20 @@ If you cannot access Codespaces from your device, you can complete the labs loca
 
 1. Open Docker Desktop.
 1. Visit the GitHub repo for the lab you'd like to complete.
-2. Select the green **<>Code** button on the repo page.
-3. Select the **Local** tab.
-4. Copy either the HTTPS or SSH URL to clipboard.
-5. Open VSCode.
-6. Open the VSCode Command Palette by pressing **Command + Shift + P** (Mac) or **Control + Shift + P** (Windows).
-7. Type **Git: Clone** and select the command that pops up in the Command Palette.
-8. Paste the GitHub URL into the field that pops up.
-9. Select a destination for the cloned repo and select the **Select as Repository Destination** button.
-10. On the next dialogue box, select **Open**.
-11. Select **Reopen in Container** in the pop-up.
-12. You may need to allow Docker access to the folder. Select **Allow** if this pops up.
-13. If you're on a VPN, the correct extensions may not have downloaded to the dev container automatically. Press **Command + Shift + X** (Mac) or **Control + Shift + X** to bring up the installed extensions.
-14. If you do *NOT* see the following extensions installed in your dev container, install them:
+> Next, you will clone the repo to your local machine and open it in VSCode. If you already know how to do that, please do so now and skip to Step 12.
+3. Select the **<>Code** button on the repo page.
+4. Select the **Local** tab.
+5. Copy either the HTTPS or SSH URL to clipboard.
+6. Open VSCode.
+7. Open the VSCode Command Palette by pressing **Command + Shift + P** (Mac) or **Control + Shift + P** (Windows).
+8. Type **Git: Clone** and select the command that pops up in the Command Palette.
+9. Paste the GitHub URL into the field that pops up.
+10. Select a destination for the cloned repo and select the **Select as Repository Destination** button.
+11. On the next dialogue box, select **Open**.
+12. Select **Reopen in Container** in the pop-up.
+13. You may need to allow Docker access to the folder. Select **Allow** if this pops up.
+14. If you're on a VPN, the correct extensions may not have downloaded to the dev container automatically. Press **Command + Shift + X** (Mac) or **Control + Shift + X** to bring up the installed extensions.
+15. If you do *NOT* see the following extensions installed in your dev container, install them:
     - ESLint (Microsoft)
     - EditorConfig for VSCode (EditorConfig)
     - Prettier (Prettier)
@@ -102,7 +103,7 @@ If you cannot access Codespaces from your device, you can complete the labs loca
     - Auth0 Labs (Auth0)
     - Rest Client (Huachao Mao)
 
-15. Once these extensions are installed, you should see a CodeTour panel pop up with instructions on how to authorize the Auth0 extension with your Auth0 tenant. Once you've done this, follow the rest of the CodeTour steps to complete the lab.
+16. Once these extensions are installed, you should see a CodeTour panel pop up with instructions on how to authorize the Auth0 extension with your Auth0 tenant. Once you've done this, follow the rest of the CodeTour steps to complete the lab.
 
 #### For all other lab issues, contact [educationondemand@okta.com](mailto:educationondemand@okta.com). For general training questions, contact [training@okta.com](mailto:training@okta.com).
 
