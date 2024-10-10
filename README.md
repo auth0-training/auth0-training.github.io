@@ -85,8 +85,8 @@ If you cannot access Codespaces from your device, you can complete the labs loca
 5. Select **Download ZIP**.
 6. Find the downloaded zip and extract the folder to your preferred directory.
 7. Open VSCode.
-8. Go to **File** > ** Open Folder**.
-9. Go to and select (do NOT double-click) the lab folder you just extracted.
+8. Go to **File** > **Open Folder**.
+9. Go to and select (do NOT double-click) the lab folder on your local machine.
 10. Select the **Open** button.
 11. Select **Reopen in Container** in the pop-up.
 12. You may need to allow Docker access to the folder. Select **Allow** if this pops up.
