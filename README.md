@@ -79,7 +79,7 @@ If you cannot access Codespaces from your device, you can complete the labs loca
 
 1. Open Docker Desktop.
 1. Visit the GitHub repo for the lab you'd like to complete.
-> Next, you will clone the repo to your local machine and open it in VSCode. If you already know how to do that, please do so now and skip to Step 7.
+> Next, you will clone the repo to your local machine and open it in VSCode. If you already know how to do that, please do so now and skip to Step 11.
 3. Select the **<>Code** button on the repo page.
 4. Select the **Local** tab.
 5. Select **Download ZIP**.
