@@ -1,6 +1,7 @@
 
 - [I'm being prompted to enroll in MFA when I create an Auth0 account](#im-being-prompted-to-enroll-in-mfa-when-i-create-an-auth0-account)
 - [I signed into the wrong Auth0 tenant](#i-signed-into-the-wrong-auth0-tenant)
+- [I can't connect my Auth0 tenant to the Auth0 Labs extension](i-cant-connect-my-auth0-tenant-to-the-auth0-labs-extension)
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
@@ -20,6 +21,10 @@ All Auth0 Administrators are now [required to enroll in MFA](https://community.a
 You can check which tenant you are signed into at the bottom of the Codespaces window. If you are signed into the wrong tenant, click this area and two options will pop up at the top of the window. Simply select **Switch tenant** and you can select the correct tenant in the tab that opens.
 
 ![Switch Tenants](https://cdn.auth0.com/website/auth0-labs/od/faqs/switch-tenants.gif)
+
+## I can't connect my Auth0 tenant to the Auth0 Labs extension
+
+The Labs extension currently only works with public cloud Auth0 tenants registered from [Auth0.com](https://auth0.com/signup). 
 
 ## I accidentally closed or lost the CodeTour panel
 
