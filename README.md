@@ -30,7 +30,7 @@ The Labs extension currently only works with public cloud Auth0 tenants register
 
 ![New tenant limit](https://cdn.auth0.com/website/auth0-labs/od/faqs/new-tenant-limit.png)
 
-Free tier Auth0 accounts created after October 31, 2023 are now limited to one development/staging environment and one production environment. You can use the default tenant (starts with `dev-`) for these labs. We always recommend using a fresh development tenant to ensure all configurations are at their defaults. 
+Free tier Auth0 accounts created after October 31, 2023 are now limited to one development/staging environment and one production environment. You can use the default tenant (starts with `dev-`) for these labs. We always recommend using a fresh development tenant to ensure all configurations are at their defaults. You can register for an additional free tier Auth0 account using a Gmail alias such as username+test@gmail.com (where username@gmail.com is your Gmail address).
 
 ## I accidentally closed or lost the CodeTour panel
 
