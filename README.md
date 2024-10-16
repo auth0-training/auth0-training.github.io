@@ -24,7 +24,7 @@ You can check which tenant you are signed into at the bottom of the Codespaces w
 
 ## I can't connect my Auth0 tenant to the Auth0 Labs extension
 
-The Labs extension currently only works with public cloud Auth0 tenants registered from [Auth0.com](https://auth0.com/signup). Please ensure you have completed your registration process! If you do not, you will not have a tenant associated with your account and you will receive an Access Denied message when trying to connect to the Labs extension. 
+The Labs extension currently only works with public cloud Auth0 tenants registered from [Auth0.com](https://auth0.com/signup). Please ensure you have completed your registration process! If you do not, you will not have a tenant associated with your account and you will receive an Activation Denied message when trying to connect to the Labs extension. 
 
 ## I can't create a new Auth0 tenant
 
