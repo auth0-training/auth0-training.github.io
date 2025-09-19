@@ -4,6 +4,7 @@
 - [I can't connect my Auth0 tenant to the Auth0 Labs extension](#i-cant-connect-my-auth0-tenant-to-the-auth0-labs-extension)
 - [I can't create a new Auth0 tenant](#i-cant-create-a-new-auth0-tenant)
 - [I accidentally closed or lost the CodeTour panel](#i-accidentally-closed-or-lost-the-codetour-panel)
+- [I can't scroll down all the way in a CodeTour step](#i-cant-scroll-down-all-the-way-in-a-codetour-step)
 - [I’m missing an .env file for my application / My application doesn’t launch](#im-missing-an-env-file-for-my-application--my-application-doesnt-launch)
 - [I'm getting a 503 when I attempt to visit my app](#im-getting-a-503-when-i-attempt-to-visit-my-app)
 - [Codespaces is behaving unexpectedly](#codespaces-is-behaving-unexpectedly)
@@ -24,7 +25,7 @@ You can check which tenant you are signed into at the bottom of the Codespaces w
 
 ## I can't connect my Auth0 tenant to the Auth0 Labs extension
 
-The Labs extension currently only works with public cloud Auth0 tenants registered from [Auth0.com](https://auth0.com/signup). Please ensure you have completed your registration process! If you do not, you will not have a tenant associated with your account and you will receive an Access Denied message when trying to connect to the Labs extension. 
+The Labs extension currently only works with public cloud Auth0 tenants registered from [Auth0.com](https://auth0.com/signup). Please ensure you have completed your registration process! If you do not, you will not have a tenant associated with your account and you will receive an Activation Denied message when trying to connect to the Labs extension. 
 
 ## I can't create a new Auth0 tenant
 
@@ -37,6 +38,10 @@ Free tier Auth0 accounts created after October 31, 2023 are now limited to one d
 If you've accidentally closed or lost the CodeTour panel, you can reopen it. Expand the CodeTour section in the right panel of your Codespace and select the step that you completed. The CodeTour panel will reappear.
 
 ![Reopen CodeTour](https://cdn.auth0.com/website/auth0-labs/od/faqs/reopen-codetour.gif)
+
+## I can't scroll down all the way in a CodeTour step
+
+Sometimes this happens if there is content (such as an image) greater than the height of the CodeTour window. If it's an image, click on the image and you will be able to continue to scroll. If this does not work, try selecting your CodeTour step in the CodeTour panel as instructed in [this section](#i-accidentally-closed-or-lost-the-codetour-panel).
 
 ## I’m missing an .env file for my application / My application doesn’t launch
 
