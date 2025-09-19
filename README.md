@@ -41,7 +41,7 @@ If you've accidentally closed or lost the CodeTour panel, you can reopen it. Exp
 
 ## I can't scroll down all the way in a CodeTour step
 
-Sometimes this happens if there is content (such as an image) greater than the height of the CodeTour window. If it's an image, click on the image and you will be able to continue to scroll. If this does not work, try clicking into the CodeTour panel as instructed in [this section](#i-accidentally-closed-or-lost-the-codetour-panel).
+Sometimes this happens if there is content (such as an image) greater than the height of the CodeTour window. If it's an image, click on the image and you will be able to continue to scroll. If this does not work, try selecting your CodeTour step in the CodeTour panel as instructed in [this section](#i-accidentally-closed-or-lost-the-codetour-panel).
 
 ## I’m missing an .env file for my application / My application doesn’t launch
 
